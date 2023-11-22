@@ -140,7 +140,7 @@
         </table>      
     </body>
     <script>
-        function abrirPopu p() {
+        function abrirPopup() {
             var popup = document.getElementById('popup');
             var overlay = document.getElementById('overlay');
 
@@ -153,14 +153,14 @@
             }
         }
 
-        function mostrarDetallesEmpleado(ID_Empleado, DUI_Empleado, ISSS_Empleado, nombresEmpleado, apellidosEmpleado, fechaNacEmpleado, telefono, correo, cargo, direccionCompleta) {
+        function mostrarDetallesEmpleado(ID_Empleado, DUI_Empleado, ISSS_Empleado, nombresEmpleado, apellidosEmpleado, fechaNacEmpleado, telefonoEmpleado, correo, cargo, direccionCompleta) {
             document.getElementById('ID_Empleado').textContent = ID_Empleado;
             document.getElementById('DUI_Empleado').textContent = DUI_Empleado;
             document.getElementById('ISSS_Empleado').textContent = ISSS_Empleado;
             document.getElementById('nombresEmpleado').textContent = nombresEmpleado;
             document.getElementById('apellidosEmpleado').textContent = apellidosEmpleado;
             document.getElementById('fechaNacEmpleado').textContent = fechaNacEmpleado;
-            document.getElementById('telefono').textContent = telefono;
+            document.getElementById('telefono').textContent = telefonoEmpleado;
             document.getElementById('correo').textContent = correo;
             document.getElementById('cargo').textContent = cargo;
             document.getElementById('direccionCompleta').textContent = direccionCompleta;
